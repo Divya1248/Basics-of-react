@@ -1,0 +1,45 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+/* .searchBlock {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background: crimson;
+    color: white;
+}
+/* input{
+    height:30px;
+    width:100%;
+} */ 
+*{
+    box-sizing:border-box ;
+    padding:0;
+    margin:0
+   }
+   
+   body{
+    background-color: white;
+   }
+   
+   .seacrhBlock{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+    padding:20px
+   }
+   
+   #search{
+    width:550px;
+    height:35px;
+    border-radius: 5mm;
+   }
+   button{
+    color:white;
+    background-color:blue;
+    border-radius:2.5mm;
+    height:9mm;
+    width:12mm
+   }

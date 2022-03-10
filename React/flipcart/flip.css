@@ -1,0 +1,232 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("https://fonts.google.com/specimen/Roboto?query=robo");
+*{
+    box-sizing:border-box ;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #efefef;
+}
+
+#headerBlock{
+    background-color: #2874f8;
+    height: 56px;
+    width:100%;
+}
+#headerBlock article{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.leftBlock{
+    flex-basis: 50%;
+    display: flex;
+    justify-content:flex-start;
+   
+
+}
+.rightBlock{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    width: 75px;
+}
+
+.logoBlock a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.logoBlock a .exploreBlock span:nth-child(1){
+    color: #eee;
+
+}
+
+.logoBlock a .exploreBlock span:nth-child(2){
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+    font-weight: bold;
+}
+
+.Plus{
+    width: 9px;
+    position: relative;
+    top:-3px;
+    left:-2px;
+}
+.logoBlock{
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    flex-basis: 15%;
+    justify-content: flex-start;
+}
+
+.searchBlock{
+    flex-basis: 85%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.searchBlock input{
+    width:100%;
+    padding: 9px;
+}
+.searchIcon{
+position: relative;
+}
+.searchIcon i{
+    position: absolute;
+    left:-25px;
+    top:10px;
+}
+
+/* right nav bar is started */
+.navBlock > ul{
+    list-style: none;
+    display: flex;
+    padding-right: 5px;
+    font-size: 20px;
+    position: relative;
+
+    
+}
+.navBlock> ul> li> a{
+    text-decoration: none;
+    padding:0 50px;
+    color:#fff;
+    
+    
+}
+#login{
+    background-color: #fff;
+    color:darkblue;
+    padding:10px 40px;
+    font-size: 20px;   
+}
+.dropdown{
+    position:absolute;
+    color:#111;
+    background-color: #fff;
+    width:250px;
+    top:38px;
+    left:-60px;
+    list-style: none;
+    display: none;
+}
+.dropdown li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #efefef;
+    color: #111;
+}
+
+.navBlock ul li:hover>ul{
+    display:block;
+}
+.triangleBlock{
+    display: flex;
+    justify-content: center;
+}
+.triangle{
+    border-bottom: 12px solid white;
+    width:0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    position:absolute;
+    top:-12px;
+    
+    
+
+}
+
+
+
+
+/* 2nd section */
+.block{
+    background-color: #fff;
+}
+.block2{
+ display: flex;
+ width: 80%;
+ margin: 0 auto;
+ justify-content: space-evenly;
+
+}
+
+.block2 div a{
+    text-decoration: none;
+    color:#000;
+    font-family: Roboto,Arial,sans-serif;
+
+}
+
+#image{
+    width:100%;
+    height:400px;
+}
+
+/* 4th section */
+nav{
+    display: flex;
+}
+.left{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.button{
+    /* flex-basis: 50%; */
+    display: flex;
+    justify-content:left;
+    background-color: blue;
+    color: white;
+    padding:10px 30px;
+    margin-left:400px;
+}
+
+.slideBlock2 div a{
+    text-decoration: none;
+    color:#000;
+
+}
+.slideBlock2{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 5th section */
+.productsBlock{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+}
+.productsBlock img{
+    width: 96%;
+    height: 150px;
+}
+.products{
+background-color: white;
+}
+
+.productsBlock div a{
+    text-decoration: none;
+    color: #000;
+}
+ 
+
+
+
+
+
